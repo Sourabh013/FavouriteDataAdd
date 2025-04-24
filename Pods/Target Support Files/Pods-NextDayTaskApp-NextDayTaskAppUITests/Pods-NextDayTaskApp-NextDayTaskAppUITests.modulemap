@@ -1,0 +1,6 @@
+framework module Pods_NextDayTaskApp_NextDayTaskAppUITests {
+  umbrella header "Pods-NextDayTaskApp-NextDayTaskAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

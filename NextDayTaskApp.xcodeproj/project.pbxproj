@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2CDBD44D932EF3B6CB0070CD /* Pods_NextDayTaskApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05408DA8589C17D2A5B132FD /* Pods_NextDayTaskApp.framework */; };
+		462415D7772B5048BF2AD937 /* Pods_NextDayTaskAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D64ADF7558A3B2FEDDF95E7 /* Pods_NextDayTaskAppTests.framework */; };
+		500E3B72172AD6A5101ED7AC /* Pods_NextDayTaskApp_NextDayTaskAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30D5FE5CF921640738673C9 /* Pods_NextDayTaskApp_NextDayTaskAppUITests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E6513DE02D9ACB260030218E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05408DA8589C17D2A5B132FD /* Pods_NextDayTaskApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextDayTaskApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		306178E3ED618000F9EA20D6 /* Pods-NextDayTaskApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextDayTaskApp.release.xcconfig"; path = "Target Support Files/Pods-NextDayTaskApp/Pods-NextDayTaskApp.release.xcconfig"; sourceTree = "<group>"; };
+		6F42AAD26D23FCBAAE30E817 /* Pods-NextDayTaskApp-NextDayTaskAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextDayTaskApp-NextDayTaskAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-NextDayTaskApp-NextDayTaskAppUITests/Pods-NextDayTaskApp-NextDayTaskAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8809634F58F5486D4E548D9C /* Pods-NextDayTaskAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextDayTaskAppTests.debug.xcconfig"; path = "Target Support Files/Pods-NextDayTaskAppTests/Pods-NextDayTaskAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D64ADF7558A3B2FEDDF95E7 /* Pods_NextDayTaskAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextDayTaskAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06D40AC1E7F8C701D57AC97 /* Pods-NextDayTaskApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextDayTaskApp.debug.xcconfig"; path = "Target Support Files/Pods-NextDayTaskApp/Pods-NextDayTaskApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D30D5FE5CF921640738673C9 /* Pods_NextDayTaskApp_NextDayTaskAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextDayTaskApp_NextDayTaskAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6513DC62D9ACB240030218E /* NextDayTaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextDayTaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6513DDF2D9ACB260030218E /* NextDayTaskAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextDayTaskAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6513DE92D9ACB260030218E /* NextDayTaskAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextDayTaskAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E917E4E928E4D74DD01BBB86 /* Pods-NextDayTaskAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextDayTaskAppTests.release.xcconfig"; path = "Target Support Files/Pods-NextDayTaskAppTests/Pods-NextDayTaskAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		ECCF7171AF50E58D5471F3AC /* Pods-NextDayTaskApp-NextDayTaskAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextDayTaskApp-NextDayTaskAppUITests.release.xcconfig"; path = "Target Support Files/Pods-NextDayTaskApp-NextDayTaskAppUITests/Pods-NextDayTaskApp-NextDayTaskAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CDBD44D932EF3B6CB0070CD /* Pods_NextDayTaskApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462415D7772B5048BF2AD937 /* Pods_NextDayTaskAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				500E3B72172AD6A5101ED7AC /* Pods_NextDayTaskApp_NextDayTaskAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7C3E0772D00E09505565870 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05408DA8589C17D2A5B132FD /* Pods_NextDayTaskApp.framework */,
+				D30D5FE5CF921640738673C9 /* Pods_NextDayTaskApp_NextDayTaskAppUITests.framework */,
+				8D64ADF7558A3B2FEDDF95E7 /* Pods_NextDayTaskAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC232830B2D83CEB56581517 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B06D40AC1E7F8C701D57AC97 /* Pods-NextDayTaskApp.debug.xcconfig */,
+				306178E3ED618000F9EA20D6 /* Pods-NextDayTaskApp.release.xcconfig */,
+				6F42AAD26D23FCBAAE30E817 /* Pods-NextDayTaskApp-NextDayTaskAppUITests.debug.xcconfig */,
+				ECCF7171AF50E58D5471F3AC /* Pods-NextDayTaskApp-NextDayTaskAppUITests.release.xcconfig */,
+				8809634F58F5486D4E548D9C /* Pods-NextDayTaskAppTests.debug.xcconfig */,
+				E917E4E928E4D74DD01BBB86 /* Pods-NextDayTaskAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E6513DBD2D9ACB240030218E = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +133,8 @@
 				E6513DE22D9ACB260030218E /* NextDayTaskAppTests */,
 				E6513DEC2D9ACB260030218E /* NextDayTaskAppUITests */,
 				E6513DC72D9ACB240030218E /* Products */,
+				CC232830B2D83CEB56581517 /* Pods */,
+				A7C3E0772D00E09505565870 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6513DF22D9ACB260030218E /* Build configuration list for PBXNativeTarget "NextDayTaskApp" */;
 			buildPhases = (
+				5C1A8495D5D8ED3FD58381FE /* [CP] Check Pods Manifest.lock */,
 				E6513DC22D9ACB240030218E /* Sources */,
 				E6513DC32D9ACB240030218E /* Frameworks */,
 				E6513DC42D9ACB240030218E /* Resources */,
+				BEF02E90A531A4C505AE49AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +169,6 @@
 				E6513DC82D9ACB240030218E /* NextDayTaskApp */,
 			);
 			name = NextDayTaskApp;
-			packageProductDependencies = (
-			);
 			productName = NextDayTaskApp;
 			productReference = E6513DC62D9ACB240030218E /* NextDayTaskApp.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6513DF72D9ACB260030218E /* Build configuration list for PBXNativeTarget "NextDayTaskAppTests" */;
 			buildPhases = (
+				BFA8CD972BFEED1B5EF8F224 /* [CP] Check Pods Manifest.lock */,
 				E6513DDB2D9ACB260030218E /* Sources */,
 				E6513DDC2D9ACB260030218E /* Frameworks */,
 				E6513DDD2D9ACB260030218E /* Resources */,
@@ -147,8 +191,6 @@
 				E6513DE22D9ACB260030218E /* NextDayTaskAppTests */,
 			);
 			name = NextDayTaskAppTests;
-			packageProductDependencies = (
-			);
 			productName = NextDayTaskAppTests;
 			productReference = E6513DDF2D9ACB260030218E /* NextDayTaskAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6513DFA2D9ACB260030218E /* Build configuration list for PBXNativeTarget "NextDayTaskAppUITests" */;
 			buildPhases = (
+				3E6D5A5F6747ADEA3D1A7100 /* [CP] Check Pods Manifest.lock */,
 				E6513DE52D9ACB260030218E /* Sources */,
 				E6513DE62D9ACB260030218E /* Frameworks */,
 				E6513DE72D9ACB260030218E /* Resources */,
+				26A1ABC6FAEF706918B69248 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +214,6 @@
 				E6513DEC2D9ACB260030218E /* NextDayTaskAppUITests */,
 			);
 			name = NextDayTaskAppUITests;
-			packageProductDependencies = (
-			);
 			productName = NextDayTaskAppUITests;
 			productReference = E6513DE92D9ACB260030218E /* NextDayTaskAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +286,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26A1ABC6FAEF706918B69248 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NextDayTaskApp-NextDayTaskAppUITests/Pods-NextDayTaskApp-NextDayTaskAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NextDayTaskApp-NextDayTaskAppUITests/Pods-NextDayTaskApp-NextDayTaskAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NextDayTaskApp-NextDayTaskAppUITests/Pods-NextDayTaskApp-NextDayTaskAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E6D5A5F6747ADEA3D1A7100 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NextDayTaskApp-NextDayTaskAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C1A8495D5D8ED3FD58381FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NextDayTaskApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEF02E90A531A4C505AE49AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NextDayTaskApp/Pods-NextDayTaskApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NextDayTaskApp/Pods-NextDayTaskApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NextDayTaskApp/Pods-NextDayTaskApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA8CD972BFEED1B5EF8F224 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NextDayTaskAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E6513DC22D9ACB240030218E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,6 +429,7 @@
 /* Begin XCBuildConfiguration section */
 		E6513DF32D9ACB260030218E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06D40AC1E7F8C701D57AC97 /* Pods-NextDayTaskApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +457,7 @@
 		};
 		E6513DF42D9ACB260030218E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 306178E3ED618000F9EA20D6 /* Pods-NextDayTaskApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -373,7 +520,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -436,7 +583,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -457,6 +604,7 @@
 		};
 		E6513DF82D9ACB260030218E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8809634F58F5486D4E548D9C /* Pods-NextDayTaskAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +623,7 @@
 		};
 		E6513DF92D9ACB260030218E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E917E4E928E4D74DD01BBB86 /* Pods-NextDayTaskAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -493,6 +642,7 @@
 		};
 		E6513DFB2D9ACB260030218E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F42AAD26D23FCBAAE30E817 /* Pods-NextDayTaskApp-NextDayTaskAppUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -509,6 +659,7 @@
 		};
 		E6513DFC2D9ACB260030218E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECCF7171AF50E58D5471F3AC /* Pods-NextDayTaskApp-NextDayTaskAppUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
